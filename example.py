@@ -1,8 +1,3 @@
-# ztimer
-function timing w/ zeromq
-
-
-```python
 import random
 import time
 
@@ -30,4 +25,3 @@ if __name__ == "__main__":
         f = fry(s)
     s = zt.summary()
     zt.close()
-```
