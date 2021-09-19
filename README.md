@@ -31,3 +31,34 @@ if __name__ == "__main__":
     s = zt.summary()
     zt.close()
 ```
+Output:
+```
+{
+  "summary": [
+    {
+      "potato": {
+        "success": {
+          "counts": 200,
+          "average": 0.025364243984222413
+        },
+        "errors": {
+          "counts": 0,
+          "average": 0
+        }
+      }
+    },
+    {
+      "fry": {
+        "success": {
+          "counts": 200,
+          "average": 0.025410701036453247
+        },
+        "errors": {
+          "counts": 0,
+          "average": 0
+        }
+      }
+    }
+  ]
+}
+```
