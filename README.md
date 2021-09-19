@@ -1,6 +1,7 @@
 # ztimer
 function timing w/ zeromq
 
+Tested w/ python 3.8
 
 ```python
 import random
